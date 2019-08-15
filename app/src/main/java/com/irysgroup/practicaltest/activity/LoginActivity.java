@@ -1,9 +1,11 @@
-package com.irysgroup.practicaltest;
+package com.irysgroup.practicaltest.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.irysgroup.practicaltest.R;
 
 public class LoginActivity extends AppCompatActivity {
 

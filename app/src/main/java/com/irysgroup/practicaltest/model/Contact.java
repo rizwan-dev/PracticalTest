@@ -1,4 +1,4 @@
-package com.irysgroup.practicaltest;
+package com.irysgroup.practicaltest.model;
 
 /**
  * Created by ravi on 16/11/17.

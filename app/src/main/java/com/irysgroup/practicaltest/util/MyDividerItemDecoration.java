@@ -1,4 +1,4 @@
-package com.irysgroup.practicaltest;
+package com.irysgroup.practicaltest.util;
 
 import android.content.Context;
 import android.content.res.Resources;

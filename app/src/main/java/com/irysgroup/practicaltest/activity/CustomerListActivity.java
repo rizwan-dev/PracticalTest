@@ -1,5 +1,6 @@
-package com.irysgroup.practicaltest;
+package com.irysgroup.practicaltest.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,10 +9,16 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
 
+import com.irysgroup.practicaltest.adapter.ContactsAdapter;
+import com.irysgroup.practicaltest.model.Invoice;
+import com.irysgroup.practicaltest.util.MyDividerItemDecoration;
+import com.irysgroup.practicaltest.R;
+import com.irysgroup.practicaltest.model.Contact;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.irysgroup.practicaltest.MyDividerItemDecoration.VERTICAL_LIST;
+import static com.irysgroup.practicaltest.util.MyDividerItemDecoration.VERTICAL_LIST;
 
 public class CustomerListActivity extends AppCompatActivity implements ContactsAdapter.ContactsAdapterListener {
 
@@ -61,6 +68,7 @@ public class CustomerListActivity extends AppCompatActivity implements ContactsA
 
     @Override
     public void onContactSelected(Contact contact) {
-
+        Intent intent = new Intent(this, InvoiceActivity.class);
+        startActivity(intent);
     }
 }

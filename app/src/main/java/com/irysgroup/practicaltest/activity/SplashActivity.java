@@ -1,9 +1,11 @@
-package com.irysgroup.practicaltest;
+package com.irysgroup.practicaltest.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.irysgroup.practicaltest.R;
 
 public class SplashActivity extends AppCompatActivity {
 

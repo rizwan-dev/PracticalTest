@@ -8,7 +8,7 @@
     android:background="@color/colorLoginBg"
     android:gravity="center_vertical"
     android:padding="@dimen/layout_margin"
-    tools:context=".LoginActivity">
+    tools:context=".activity.LoginActivity">
 
 
 
